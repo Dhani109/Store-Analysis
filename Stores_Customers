@@ -1,0 +1,29 @@
+SELECT *
+FROM dbo.Stores
+
+
+SELECT [Store ID ], [Store_Area], [Items_Available]
+FROM dbo.Stores
+ORDER BY  [Store_Area] DESC
+
+
+SELECT [Store_Area], [Daily_Customer_Count]
+FROM dbo.Stores
+ORDER BY  [Store_Area] DESC
+
+SELECT [Store_Area], [Store_Sales]
+FROM dbo.Stores
+ORDER BY  [Store_Area] DESC
+
+SELECT [Items_Available], [Daily_Customer_Count]
+FROM dbo.Stores 
+ORDER BY  [Items_Available] DESC
+
+SELECT [Items_Available], [Store_Sales]
+FROM dbo.Stores
+ORDER BY [Items_Available]
+
+
+SELECT [Daily_Customer_Count], [Store_Sales]
+FROM dbo.Stores
+ORDER BY [Daily_Customer_Count] DESC
